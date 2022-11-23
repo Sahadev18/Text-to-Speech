@@ -59,7 +59,7 @@
     height: 21px;
 }
 .toggle-button .bar{
-    background-color: black;
+    background-color: grey;
     height: 3px;
     width: 100%;
     border-radius: 10px;

@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
-    <title>Text to Speech</title>
+    <title>ReadText</title>
 </head>
 <body>
     <nav class="navbar">
-        <div class="brand-name"><a href="#"><img src="../Images/Logo.png" alt="Read Text Logo"></a></div>
+        <div class="brand-name"><a href="index.html"><img src="../Images/Logo.png" alt="Read Text Logo"></a></div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -26,6 +26,27 @@
             </ul>
         </div>
     </nav>
+    <content class="app">
+        <div class="area">
+            <h1>Text to Speech</h1>
+            <p id="select-voice">Select Voice</p>
+            <select name="select-voice" id="select"></select>
+            <div class="range">
+                <div id="volume">
+                    <p>Volume</p>
+                    <input type="range" min="0" max="1" step="0.1" value="1">
+                </div>
+                <div id="rate">
+                    <p>Rate</p>
+                    <input type="range" min="0" max="10" step="1" value="1">
+                </div>
+                <div id="pitch">
+                    <p>Pitch</p>
+                    <input type="range" min="0" max="2" step="0.1" value="1">
+                </div>
+            </div>
+        </div>
+    </content>
 </body>
 <script src="../JavaScript/script.js"></script>
 </html>

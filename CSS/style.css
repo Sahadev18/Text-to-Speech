@@ -185,7 +185,7 @@
         display: flex;
     }
 }
-@media (max-width:800px){
+@media (max-width:850px){
     .area .range #volume{
         position: absolute;
         top: 170px;
@@ -203,6 +203,9 @@
     }
     .area #txtarea{
         top: 300px;
+    }
+    .area{
+        margin: 20px;
     }
 }
 @media (max-width:600px){

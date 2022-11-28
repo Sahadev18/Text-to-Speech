@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E7E9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.registration{
+    position: relative;
+    margin: 50px 400px;
+    padding: 250px 50px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.registration h1{
+    position: absolute;
+    top: 5px;
+    left: 165px;
+    background-color: white;
+}
+.registration .name input, .registration .mail input, .registration .phone input, .registration .pass input, .registration .cpass input{
+    position: absolute;
+    left: 170px;
+    border-radius: 5px;
+}
+.registration .name{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+.registration .mail{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+.registration .phone{
+    position: absolute;
+    top: 250x;
+    left: 70px;
+}
+.registration .pass{
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+.registration .cpass{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+}
+.registration .btn1{
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+    background-color: white;
+    padding: 2px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration .btn2{
+    position: absolute;
+    bottom: 30px;
+    left: 280px;
+    background-color: white;
+    padding: 2px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

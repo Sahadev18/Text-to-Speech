@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E7E9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login{
+    position: relative;
+    margin: 100px 450px;
+    padding: 200px 50px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.login h1{
+    position: absolute;
+    top: 5px;
+    left: 160px;
+    right: 120px;
+    background-color: white;
+}
+.login .mail input, .login .pass input{
+    position: absolute;
+    left: 120px;
+    right: 5px;
+    border-radius: 5px;
+}
+.login .mail{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    right: 70px;
+}
+.login .pass{
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    right: 70px;
+}
+.login .btn1{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    background-color: white;
+    padding: 2px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login .btn2{
+    position: absolute;
+    bottom: 30px;
+    left: 230px;
+    background-color: white;
+    padding: 2px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

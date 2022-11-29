@@ -87,3 +87,8 @@ document.querySelector("#cancel").addEventListener("click", () => {
   // Cancel the speechSynthesis instance
   window.speechSynthesis.cancel();
 });
+
+const textClear = document.getElementById("txtclear")
+textClear.addEventListener('click', () => {
+  document.getElementById("txtarea").value=""
+})

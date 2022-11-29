@@ -4,7 +4,7 @@
     background-color: #E5E7E9;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.registration{
+.contact{
     position: relative;
     margin: 10% 20%;
     padding: 250px 50px;
@@ -12,45 +12,40 @@
     border: solid 2px black;
     border-radius: 10px;
 }
-.registration h1{
+.contact h1{
     position: absolute;
     top: 5px;
     left: 165px;
     background-color: white;
 }
-.registration .name input, .registration .mail input, .registration .phone input, .registration .pass input, .registration .cpass input{
+.contact .name input, .contact .mail input, .contact .ttarea .txtarea{
     position: absolute;
     left: 170px;
     border-radius: 5px;
 }
-.registration .name{
+.contact .name{
     position: absolute;
     top: 150px;
     left: 70px;
 }
-.registration .mail{
+.contact .mail{
     position: absolute;
     top: 200px;
     left: 70px;
 }
-.registration .phone{
+.contact .phone{
     position: absolute;
     top: 250x;
     left: 70px;
 }
-.registration .pass{
-    position: absolute;
-    top: 300px;
-    left: 70px;
-}
-.registration .cpass{
+.contact .ttarea{
     position: absolute;
     top: 350px;
     left: 70px;
 }
-.registration .btn1{
+.contact .btn1{
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     left: 150px;
     background-color: white;
     padding: 2px 20px;
@@ -58,9 +53,9 @@
     cursor: pointer;
 }
 
-.registration .btn2{
+.contact .btn2{
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     left: 280px;
     background-color: white;
     padding: 2px 20px;

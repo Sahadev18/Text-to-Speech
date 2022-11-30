@@ -7,7 +7,8 @@
 .contact{
     position: relative;
     margin: 10% 20%;
-    padding: 250px 50px;
+    padding: 100px 50px;
+    min-width: 400px;
     background-color: white;
     border: solid 2px black;
     border-radius: 10px;
@@ -15,38 +16,38 @@
 .contact h1{
     position: absolute;
     top: 5px;
-    left: 165px;
+    left: 40%;
     background-color: white;
 }
-.contact .name input, .contact .mail input, .contact .ttarea .txtarea{
-    position: absolute;
-    left: 170px;
+.contact .name input, .contact .mail input{
+    margin-left: 40px;
+    width: 200px;
     border-radius: 5px;
 }
 .contact .name{
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 70px;
 }
 .contact .mail{
     position: absolute;
-    top: 200px;
-    left: 70px;
-}
-.contact .phone{
-    position: absolute;
-    top: 250x;
+    top: 250px;
     left: 70px;
 }
 .contact .ttarea{
-    position: absolute;
-    top: 350px;
-    left: 70px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.contact .ttarea #txtarea{
+    margin-left: 10px;
+    background-color: white;
+    border: solid 2px black;
+    resize: vertical;
 }
 .contact .btn1{
     position: absolute;
     bottom: 10px;
-    left: 150px;
+    left: 35%;
     background-color: white;
     padding: 2px 20px;
     border-radius: 5px;
@@ -56,8 +57,9 @@
 .contact .btn2{
     position: absolute;
     bottom: 10px;
-    left: 280px;
+    left: 50%;
     background-color: white;
+    margin-left: 50px;
     padding: 2px 20px;
     border-radius: 5px;
     cursor: pointer;

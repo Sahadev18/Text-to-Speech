@@ -6,8 +6,9 @@
 }
 .login{
     position: relative;
-    margin: 10% 20%;
+    margin: 10% 35%;
     padding: 200px 50px;
+    min-width: 300px;
     background-color: white;
     border: solid 2px black;
     border-radius: 10px;
@@ -19,10 +20,12 @@
     right: 120px;
     background-color: white;
 }
-.login .mail input, .login .pass input{
-    position: absolute;
-    left: 120px;
-    right: 5px;
+.login .mail input{
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.login .pass input{
+    margin-left: 10px;
     border-radius: 5px;
 }
 .login .mail{

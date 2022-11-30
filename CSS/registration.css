@@ -6,8 +6,9 @@
 }
 .registration{
     position: relative;
-    margin: 10% 20%;
+    margin: 10% 30%;
     padding: 250px 50px;
+    min-width: 350px;
     background-color: white;
     border: solid 2px black;
     border-radius: 10px;

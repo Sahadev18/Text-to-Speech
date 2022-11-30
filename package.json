@@ -1,0 +1,23 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahadev18/Text-to-Speech.git"
+  },
+  "author": "Sahadev Bhaganagare <sahadevbh8@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahadev18/Text-to-Speech/issues"
+  },
+  "homepage": "https://github.com/Sahadev18/Text-to-Speech#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

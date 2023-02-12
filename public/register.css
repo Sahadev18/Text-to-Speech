@@ -49,6 +49,14 @@
     top: 350px;
     left: 70px;
 }
+
+.registration h4{
+    position: absolute;
+    bottom: 70px;
+    left: 150px;
+    background-color: white;
+}
+
 .registration .btn1{
     position: absolute;
     bottom: 30px;

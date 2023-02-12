@@ -40,6 +40,14 @@
     left: 70px;
     right: 70px;
 }
+
+h4{
+    position: absolute;
+    bottom: 70px;
+    left: 120px;
+    color: red;
+    background-color: white;
+}
 .login .btn1{
     position: absolute;
     bottom: 30px;

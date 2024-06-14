@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+    align-items: center;
+    top: 1.5rem;
+}
+.brand-name a img{
+    width: 7rem;
+}
+.nav-links ul{
+    display: flex;
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links ul li a{
+    color: grey;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    color: #4D5656;
+}
+#log a{
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #2ECC71;
+    color: #2ECC71;
+    padding: 10px 20px
+}
+#log a:hover{
+    background-color: #cacfd2;
+}
+#reg a{
+    border-radius: 10px;
+    padding: 12px 20px;
+    background-color: #2ECC71;
+    color: white;
+}
+#reg a:hover{
+    background-color: #239B56;
+}
+.toggle-button{
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    background-color: grey;
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+}
+.area{
+    background-color:  #bdc3c7;
+    margin: 0px 80px;
+    padding: 350px 0px;
+    border-radius: 15px;
+    position: relative;
+}
+.area h1{
+    position: absolute;
+    top: 16px;
+    left: 25px;
+}
+.area #select-voice{
+    position: absolute;
+    top: 80px;
+    left: 25px;
+}
+.area #select{
+    position: absolute;
+    height: 30px;
+    top: 110px;
+    left: 25px;
+    right: 25px;
+}
+.area .range #volume{
+    position: absolute;
+    top: 170px;
+    left: 25px;
+}
+.area .range #rate{
+    position: absolute;
+    top: 170px;
+    left: 250px;
+}
+.area .range #pitch{
+    position: absolute;
+    top: 170px;
+    left: 475px;
+}
+.area #txtarea{
+    position: absolute;
+    top: 255px;
+    bottom: 150px;
+    left: 25px;
+    right: 25px;
+    resize: vertical;
+}
+.area #txtclear{
+    position: absolute;
+    top: 560px;
+    right: 25px;
+    cursor: pointer;
+}
+.area .buttons{
+    position: absolute;
+    top: 600px;
+    left: 25px;
+}
+.area .buttons button{
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0px solid;
+    cursor: pointer;
+}
+.area > .buttons > button:nth-child(1){
+    background-color: #2ecc71;
+}
+.area > .buttons > button:nth-child(1):hover{
+    background-color:  #239b56;
+}
+.area > .buttons > button:nth-child(2){
+    background-color: #e59866; 
+}
+.area > .buttons > button:nth-child(2):hover{
+    background-color: #dc7633;
+}
+.area > .buttons > button:nth-child(3){
+    background-color: #5dade2;
+}
+.area > .buttons > button:nth-child(3):hover{
+    background-color: #2e86c1;
+}
+.area > .buttons > button:nth-child(4){
+    background-color: #ec7063;
+}
+.area > .buttons > button:nth-child(4):hover{
+    background-color: #cb4335;
+}
+
+
+@media (max-width:850px){
+    .toggle-button{
+        display: flex;
+    }
+    .nav-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-links ul li {
+        margin: 10px;
+        text-align: center;
+    }
+    #log{
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    #reg{
+        padding-top: 5px;
+    }
+    .nav-links.active{
+        display: flex;
+    }
+}
+@media (max-width:850px){
+    .area .range #volume{
+        position: absolute;
+        top: 170px;
+        left: 25px;
+    }
+    .area .range #rate{
+        position: absolute;
+        top: 210px;
+        left: 25px;
+    }
+    .area .range #pitch{
+        position: absolute;
+        top: 250px;
+        left: 25px;
+    }
+    .area #txtarea{
+        top: 300px;
+    }
+    .area{
+        margin: 20px;
+    }
+}
+@media (max-width:600px){
+    .area{
+        padding-bottom: 410px;
+    }
+    .area .buttons{
+        top: 650px;
+    }
+    .area #txtclear{
+        top: 620px;
+    }
+}
